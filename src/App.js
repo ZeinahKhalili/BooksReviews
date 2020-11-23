@@ -10,6 +10,7 @@ import News from './containers/News/News'
 import Contacts from './containers/Contacts/Contacts'
 
 import './App.css';
+import Categories from './components/Categories/Categories';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route path="/reviews" component={Reviews}/>
             <Route path="/news" component={News}/>
             <Route path="/contacts" component={Contacts}/>
-            
+            <Route path="/categories/:id" component={Categories}/>
      </Switch>
      <Footer/>
     </div>

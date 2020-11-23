@@ -1,0 +1,20 @@
+.horiz{
+  display: flex;
+  flex-direction: row;
+}
+  .contain{
+      font-size: 15px;
+      color:rgba(0,0,0,0.5)
+  }
+  .title{
+    font-size: 15px !important;
+    color: black;
+  }
+  .img-cat{
+    width: 70px;
+    height: 70px;
+    margin-top:20px;
+  }
+.card-style{
+  width: auto;
+}

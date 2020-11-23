@@ -21,6 +21,7 @@ function App() {
             <Route path="/reviews" component={Reviews}/>
             <Route path="/news" component={News}/>
             <Route path="/contacts" component={Contacts}/>
+            
      </Switch>
      <Footer/>
     </div>

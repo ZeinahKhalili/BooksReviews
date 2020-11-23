@@ -1,20 +1,19 @@
 .horiz{
   display: flex;
-  flex-direction: row;
 }
-  .contain{
+.contain{
       font-size: 15px;
       color:rgba(0,0,0,0.5)
-  }
-  .title{
+}
+.title{
     font-size: 15px !important;
     color: black;
-  }
-  .img-cat{
+}
+.img-cat{
     width: 70px;
     height: 70px;
     margin-top:20px;
-  }
+}
 .card-style{
   width: auto;
 }
